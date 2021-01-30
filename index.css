@@ -2,7 +2,8 @@
 /*
 Background: 212121
 Content: 323232
-Content-Primary: 0d7377
+Content-Primary: 0AAE59 = RGB(10, 174, 89)
+Hover-state-primary: (34, 194, 109) = #1ec26d
 Content-Secondary: 14ffec
 text: ffffff
 */
@@ -15,7 +16,7 @@ body {
 }
 
 .bg-primary {
-  background-color: #0d7377;
+  background-color: #0AAE59;
 }
 
 .bg-secondary {
@@ -23,13 +24,13 @@ body {
 }
 
 .btn-primary {
-  background-color: #0d7377;
-  border-color: #0d7377;
+  background-color: #0AAE59;
+  border-color: #0AAE59;
 }
 
 .btn-primary:hover {
-  background-color: #14ffec;
-  border-color: #14ffec;
+  background-color: #1ec26d;
+  border-color: #1ec26d;
 }
 
 .btn-secondary {
