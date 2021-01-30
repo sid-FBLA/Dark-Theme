@@ -9,6 +9,7 @@ text: ffffff
 */
 body {
   background-color: #212121;
+  color: white;
 }
 
 .bg-dark {
@@ -23,16 +24,38 @@ body {
   background-color: #14ffec;
 }
 
-.btn-primary {
-  background-color: #0AAE59;
-  border-color: #0AAE59;
+/*Restyling Elements*/
+
+hr {
+  border-top-color: rgba(0, 0, 0, 0.2);
 }
 
-.btn-primary:hover {
-  background-color: #1ec26d;
-  border-color: #1ec26d;
+footer {
+  background-color: #323232;
 }
 
-.btn-secondary {
-  background-color: #14ffec;
+/* Resytling jumbotron */
+.jumbotron {
+  background-color: #323232;
+}
+
+/*Restyle table*/
+.table thead th {
+  border-bottom-color: rgb(0, 0, 0, 0.2);
+  border-top-color: rgb(0, 0, 0, 0.2);
+}
+
+.table-dark td, .table th {
+  border-color: rgb(0, 0, 0, 0.2);
+}
+
+
+
+/*Overriding body/bootstrap*/
+.border-dark .card-header {
+  color: #323232;
+}
+
+.card {
+  padding: 0;
 }
