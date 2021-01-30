@@ -1,0 +1,37 @@
+/*Restyling for dark theme*/
+/*
+Background: 212121
+Content: 323232
+Content-Primary: 0d7377
+Content-Secondary: 14ffec
+text: ffffff
+*/
+body {
+  background-color: #212121;
+}
+
+.bg-dark {
+  background-color: #323232;
+}
+
+.bg-primary {
+  background-color: #0d7377;
+}
+
+.bg-secondary {
+  background-color: #14ffec;
+}
+
+.btn-primary {
+  background-color: #0d7377;
+  border-color: #0d7377;
+}
+
+.btn-primary:hover {
+  background-color: #14ffec;
+  border-color: #14ffec;
+}
+
+.btn-secondary {
+  background-color: #14ffec;
+}
